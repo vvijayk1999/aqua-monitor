@@ -1,0 +1,28 @@
+server/node_modules/
+server/.env
+requirements
+design/
+
+# React Ignores
+# dependencies
+react/node_modules
+react/.pnp
+react/.pnp.js
+
+# testing
+react/coverage
+
+# production
+react/build
+
+# misc
+react/.DS_Store
+react/.env
+react/.env.local
+react/.env.development.local
+react/.env.test.local
+react/.env.production.local
+
+react/npm-debug.log*
+react/yarn-debug.log*
+react/yarn-error.log*
