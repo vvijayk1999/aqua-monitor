@@ -1,0 +1,95 @@
+.root {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  max-width: 400px;
+  width: 90%;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.144);
+  padding: 10px;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.img-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.water-details > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.water-details p {
+  font-weight: bold;
+}
+
+.greeting-img {
+  height: 148px;
+}
+
+.logout-wrapper {
+  width: 100;
+  display: flex;
+  justify-content: end;
+}
+
+.btn-logout {
+  width: fit-content;
+  border: 1px solid black;
+  font-size: 1rem;
+  margin: 20px 0 0 0;
+  border-radius: 10px;
+  padding: 8px 32px;
+  font-weight: bold;
+}
+
+.btn-logout:hover {
+  background-color: #66e6ff;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 650px) {
+  .main-container {
+    max-width: unset;
+    width: 75%;
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  .img-wrapper {
+    display: unset;
+  }
+  .greeting-img {
+    height: 148px;
+  }
+  .header-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .header-card .header-data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .water-details{
+    width: 50%;
+  }
+}
